@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Yoo Ji Yeon</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+rel="stylesheet">
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  </head>
+  <script type="text/javascript" src="js/jquery-latest.js"></script>
+  <script>
+      function fnMove(seq){
+          var offset = $("#anchor" + seq).offset();
+          $('html, body').animate({scrollTop : offset.top},900);
+      }
+  </script>
+
+  <body>
+    <script src="js/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in'
+      });
+    </script>
+    <header>
+        <nav>
+          <div class="logo"><a onclick="fnMove('1')"><img src="img/00_logo.png" alt="logo"></a></div>
+          <div class="menu">
+            <ul>
+              <li><a onclick="fnMove('1')">HOME</a></li>
+              <li><a onclick="fnMove('2')">ABOUT</a></li>
+              <li><a onclick="fnMove('3')">PORTFOLIO</a></li>
+              <li><a onclick="fnMove('4')">CONTACT</a></li>
+            </ul>
+          </div>
+        </nav>
+    </header>
+
+
+<section>
+  <div class="top"id="anchor1">
+      <div class="top_wrap">
+      </div>
+    </div>
+
+    <div class="bg">
+<div class="ab" id="anchor2" ><div class="ab_tit"><img src="img/03_ab_tit.png" alt=""></div>
+
+<div class="ab_01">
+<div class="ab1"><div data-aos="zoom-in">
+  <img src="img/04_ab.png" alt=""></div></div>
+
+   <!--포폴 1-->
+<div class="po_01">
+  <div class="po1" id="anchor3">
+    <img src="img/05_po_tit01.png" alt=""></div>
+
+    <div class="po1_1"><div class="po1_1_wrap">
+    </div></div>
+
+      <div class="po1_2">
+        <img src="img/07_po_1.png" alt="">
+        <div class="b01"><a href="sub01.html"><img src="img/08_po_1.png" alt=""></a></div></div>
+</div>
+
+    <!--포폴 2-->
+ <div class="po_02">
+   <div class="po2">
+     <img src="img/09_po_2.png" alt=""></div>
+
+     <div class="po2_1"><div class="po2_1_wrap">
+     </div></div>
+
+       <div class="po2_2">
+         <img src="img/11_po_2.png" alt="">
+         <div class="b02"><a href="sub02.html"><img src="img/08_po_1.png" alt=""></a></div></div>
+ </div>
+ <!--포폴 3-->
+<div class="po_03">
+<div class="po3">
+  <img src="img/12_po_3.png" alt=""></div>
+
+  <div class="po3_1"><div class="po3_1_wrap">
+  </div></div>
+
+    <div class="po3_2">
+      <img src="img/14_po_3.png" alt="">
+      <div class="b03"><a href="https://delay219.github.io/sulkiandmin/"target="_blank">
+        <img src="img/15_po_3.png" alt=""></a></div></div>
+</div>
+<!--포폴 4-->
+<div class="po_04">
+<div class="po4">
+ <img src="img/16_po_4.png" alt=""></div>
+
+ <div class="po4_1"><div class="po4_1_wrap">
+ </div></div>
+
+   <div class="po4_2">
+     <img src="img/18_po_4.png" alt="">
+     <div class="b04"><a href="sub03.html"><img src="img/08_po_1.png" alt=""></a></div></div>
+</div>
+
+<!--컨택-->
+<div class="con" id="anchor4" ><div class="con_tit"><img src="img/21_con_1.png" alt=""></div>
+
+<div class="con_01">
+<div class="con1"><div data-aos="zoom-in">
+  <img src="img/22_con_2.png" alt=""></div></div>
+</section>
+
+<footer><div class="footerwrap">
+   <div class="f_left"><img src="img/00_logo.png" alt="로고"></div>
+   <div class="f_right">Copyright 2021 Jiyeon, Yoo. All right reserved.</div>
+ </div></footer>
+
+</body>
+</html>
